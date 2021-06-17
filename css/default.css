@@ -11,7 +11,57 @@ h1, h2 {
   font-weight: 900;
 }
 
-.content-wrap {
+.page-wrap {
   margin: 0 auto;
   max-width: 680px;
 }
+
+.row-content-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.text-icon {
+  display: flex;
+  font-size: 3em;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-icon > p {
+  margin: 0;
+}
+
+.paragraph-wrap {
+  display: flex;
+  justify-content: start;
+}
+
+.paragraph-wrap > p {
+  margin: 0;
+}
+
+/* Github color palette
+{
+  "name": "Github",
+  "black": "#3e3e3e",
+  "red": "#970b16",
+  "green": "#07962a",
+  "yellow": "#f8eec7",
+  "blue": "#003e8a",
+  "purple": "#e94691",
+  "cyan": "#89d1ec",
+  "white": "#ffffff",
+  "brightBlack": "#666666",
+  "brightRed": "#de0000",
+  "brightGreen": "#87d5a2",
+  "brightYellow": "#f1d007",
+  "brightBlue": "#2e6cba",
+  "brightPurple": "#ffa29f",
+  "brightCyan": "#1cfafe",
+  "brightWhite": "#ffffff",
+  "background": "#f4f4f4",
+  "foreground": "#3e3e3e",
+  "selectionBackground": "#a9c1e2",
+  "cursorColor": "#3f3f3f"
+} */
