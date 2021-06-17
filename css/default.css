@@ -11,14 +11,32 @@ h1, h2 {
   font-weight: 900;
 }
 
+h2 {
+  color: #585ab3;
+}
+
+.pink-text {
+  color: rgb(68, 124, 207)
+}
+
 .page-wrap {
   margin: 0 auto;
+  padding: 2rem 1rem;
   max-width: 680px;
+}
+
+.header {
+  margin-bottom: 2rem;
 }
 
 .row-content-wrap {
   display: flex;
   flex-flow: row wrap;
+}
+
+.column-content-wrap {
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .text-icon {
@@ -34,34 +52,11 @@ h1, h2 {
 
 .paragraph-wrap {
   display: flex;
+  flex-flow: column wrap;
   justify-content: start;
 }
 
 .paragraph-wrap > p {
-  margin: 0;
+  margin: 0 0 1rem;
+  text-align: justify;
 }
-
-/* Github color palette
-{
-  "name": "Github",
-  "black": "#3e3e3e",
-  "red": "#970b16",
-  "green": "#07962a",
-  "yellow": "#f8eec7",
-  "blue": "#003e8a",
-  "purple": "#e94691",
-  "cyan": "#89d1ec",
-  "white": "#ffffff",
-  "brightBlack": "#666666",
-  "brightRed": "#de0000",
-  "brightGreen": "#87d5a2",
-  "brightYellow": "#f1d007",
-  "brightBlue": "#2e6cba",
-  "brightPurple": "#ffa29f",
-  "brightCyan": "#1cfafe",
-  "brightWhite": "#ffffff",
-  "background": "#f4f4f4",
-  "foreground": "#3e3e3e",
-  "selectionBackground": "#a9c1e2",
-  "cursorColor": "#3f3f3f"
-} */
